@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>¿Alcohol o gasolina?</h3>
+</body>
+
+
+<script>
+    function saltarLinea(veces) {
+        (document.write("<br>"))*3
+    }
+
+    function imprimir (texto){
+        document.write(texto)
+    }
+
+    var tanque = 40
+    var distanciaGasolina = 480
+    var distanciaAlcohol = 480
+
+    document.write("Eficiencia con Gasolina es de " + distanciaGasolina/tanque + "km/l")
+    document.write("Eficiencia con Alcohol es de " + distanciaAlcohol/tanque)
+
+    saltarLinea(3)
+
+    var miEdad = 45
+    var edadHermana = 43
+
+    imprimir("<hr>")
+
+    imprimir ("Diferencia de edad es " + (miEdad - edadHermana))
+
+
+</script>
